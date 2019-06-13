@@ -1,2 +1,3 @@
-# v-stack-bar
-Stackbar web component
+## Usage
+
+See vaadin-directory-description.md

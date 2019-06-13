@@ -1,0 +1,27 @@
+<head>
+  <script type="module" src="src/v-stack-bar.js"></script>
+</head>
+<body>
+  <div style="margin: 15px; width: 1000px;">
+    <v-stack-bar bars="[15,50,35]" descriptions='["First element","Second element","Third element"]'></v-stack-bar>
+  </div>
+  <div style="margin: 15px;">
+  <v-stack-bar bars="[15,50,60]" theme="lumo-primary" descriptions='["First element","","Third element"]'></v-stack-bar>
+</div>
+<div style="margin: 15px;">
+  <v-stack-bar bars="[15,50,35]" theme="lumo-error"></v-stack-bar>
+</div>
+
+<div style="margin: 15px;">
+    <v-stack-bar bars="[20,30,50]" theme="lumo-success"></v-stack-bar>
+  </div>
+  <div style="margin: 15px;">
+      <v-stack-bar bars="[20,30,50]" theme="lumo-shade"></v-stack-bar>
+    </div>
+<div style="margin: 15px;">
+  <v-stack-bar bars="[30,70]" colors='["red","blue","pink","green","brown"]' background-colors='["blue","pink","green","red","brown"]'></v-stack-bar>
+</div>
+<div style="margin: 15px;">
+  <v-stack-bar bars="[1,20,80,140,52,33,674]" colors='["pink","green","brown","red","blue","black","red"]' background-colors='["blue","pink","green","black","brown"]'></v-stack-bar>
+</div>
+</body>

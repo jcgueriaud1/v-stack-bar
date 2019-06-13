@@ -1,0 +1,20 @@
+{
+  "name": "@jcgueriaud/v-stack-bar",
+  "version": "1.2.0",
+  "flat": true,
+  "description": "Stack bar. Build your first element with Polymer 3.0!",
+  "main": "index.html",
+  "author": "Jean-Christophe Gueriaud",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "@polymer/polymer": "^3.1.0",
+    "@vaadin/vaadin-element-mixin": "^2.0.0",
+    "@vaadin/vaadin-lumo-styles": "^1.1.0",
+    "@vaadin/vaadin-material-styles": "^1.1.0",
+    "@vaadin/vaadin-themable-mixin": "^1.2.1"
+  },
+  "devDependencies": {
+    "@vaadin/vaadin-demo-helpers": "^2.0.1",
+    "@webcomponents/webcomponentsjs": "^2.0.0"
+  }
+}
