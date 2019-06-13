@@ -3,7 +3,7 @@
 # &lt;v-stack-bar&gt;
 
 
-[&lt;-stack-bar&gt;](https://vaadin.com/directory/component/jcgueriaudv-stack-bar) is a [Polymer 3](http://polymer-project.org) web component for creating stack bar.
+[&lt;v-stack-bar&gt;](https://vaadin.com/directory/component/jcgueriaudv-stack-bar) is a [Polymer 3](http://polymer-project.org) web component for creating stack bar.
 
 
 ```html
@@ -18,6 +18,8 @@
 <v-stack-bar bars="[1,0,1]" colors='["pink","green","brown"]'></v-stack-bar>
 ```
 
+![Screenshot](https://raw.githubusercontent.com/jcgueriaud1/v-stack-bar/master/screenshot.png)
+
 # Getting Started  
 
 To use &lt;v-stack-bar&gt; the only required attribute is bars which contains a array of values.
@@ -29,3 +31,5 @@ There are more optional attributes:
 * background-colors: array of background colors
 
 If the value = 0 then the bar is not displayed (but the color is reserved for the value).
+
+
