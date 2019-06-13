@@ -1,11 +1,16 @@
 {
   "name": "@jcgueriaud/v-stack-bar",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "flat": true,
-  "description": "Stack bar. Build your first element with Polymer 3.0!",
-  "main": "index.html",
+  "description": "Stack bar built with Polymer 3.0!",
+  "main": "src/v-stack-bar.js",
   "author": "Jean-Christophe Gueriaud",
   "license": "Apache 2.0",
+  "repository": "https://github.com/jcgueriaud1/v-stack-bar",
+  "keywords":["Stack bar"],
+  "bugs": { "url" : "https://github.com/jcgueriaud1/v-stack-bar/issues"
+          , "email" : "jean-christophe@vaadin.com"
+          },
   "dependencies": {
     "@polymer/polymer": "^3.1.0",
     "@vaadin/vaadin-element-mixin": "^2.0.0",
