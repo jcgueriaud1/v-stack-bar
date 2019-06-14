@@ -94,6 +94,7 @@ class VStackBar extends ElementMixin(ThemableMixin(PolymerElement))  {
       width: 100%;
       display: flex;
       box-shadow: var(--lumo-box-shadow-m);
+      border-radius: var(--lumo-border-radius);
     }
     .bar:first-of-type  {
       border-radius: var(--lumo-border-radius) 0 0 var(--lumo-border-radius); 
@@ -149,10 +150,10 @@ class VStackBar extends ElementMixin(ThemableMixin(PolymerElement))  {
   // properties getter
   static get properties() {
     return {
-      bars: { type: Array },
-      descriptions: { type: Array},
-      colors: { type: Array},
-      backgroundColors: { type: Array}
+      bars: { type: Array, reflectToAttribute: true },
+      descriptions: { type: Array, reflectToAttribute: true },
+      colors: { type: Array, reflectToAttribute: true},
+      backgroundColors: { type: Array, reflectToAttribute: true}
     };
   }
 
