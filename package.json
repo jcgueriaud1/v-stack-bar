@@ -1,6 +1,6 @@
 {
   "name": "@jcgueriaud/v-stack-bar",
-  "version": "1.2.5",
+  "version": "1.2.7",
   "flat": true,
   "description": "Stack bar built with Polymer 3.0!",
   "main": "src/v-stack-bar.js",

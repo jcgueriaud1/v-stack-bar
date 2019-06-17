@@ -1,5 +1,15 @@
 <head>
   <script type="module" src="src/v-stack-bar.js"></script>
+  <dom-module id="custom-v-stack-bar" theme-for="v-stack-bar">
+    <template>
+      <style>
+        :host .bar-content {
+          padding: var(--lumo-space-xs, 1rem);
+        }
+      </style>
+    </template>
+  </dom-module>
+
 </head>
 <body>
   <div style="margin: 15px; width: 1000px;">

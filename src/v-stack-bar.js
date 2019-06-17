@@ -13,7 +13,7 @@ import { ThemableMixin } from '@vaadin/vaadin-themable-mixin/vaadin-themable-mix
 import { ElementMixin } from '@vaadin/vaadin-element-mixin/vaadin-element-mixin.js';
 
 // Extend the PolymerElement base class
-class VStackBar extends ElementMixin(ThemableMixin(PolymerElement))  {
+class VStackBar extends ThemableMixin(ElementMixin(PolymerElement))  {
 
   constructor() {
     // Always call super() first
@@ -147,6 +147,11 @@ class VStackBar extends ElementMixin(ThemableMixin(PolymerElement))  {
   _getDescription(index) {
     return this.descriptions[index];
   }
+
+  static get is() {
+    return 'v-stack-bar';
+  }
+
   // properties getter
   static get properties() {
     return {
@@ -160,5 +165,6 @@ class VStackBar extends ElementMixin(ThemableMixin(PolymerElement))  {
 
 }
 // Register the new element with the browser.
-customElements.define('v-stack-bar', VStackBar);
+customElements.define(VStackBar.is, VStackBar);
 
+export { VStackBar };
